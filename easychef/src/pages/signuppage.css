@@ -1,0 +1,40 @@
+
+body {
+	overflow: auto;
+	height: 100%;
+}
+.background {
+	opacity: 0.5;
+	position: absolute;
+	height: 100%;
+}
+
+
+.container {
+	position: relative;
+	/* background-color: rgb(241, 241, 241); */
+	padding: 3rem;
+	padding-top: 2.5rem;
+}
+.container form{
+	margin-top: 5rem;
+}
+.but{
+	margin-top: 2rem;
+	margin-right: 0;
+	text-align: right;
+}
+
+.form-group input::placeholder {
+	color: grey;
+	opacity: 0.3;
+}
+
+.fg {
+	margin-top: 3rem;
+	opacity: 0.5;
+}
+
+.error {
+	color: indianred;
+}

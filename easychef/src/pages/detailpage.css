@@ -1,0 +1,39 @@
+.parent {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.container_top {
+    display: flex;
+    flex: 1;
+}
+
+.container1 {
+	display: flex;
+	flex: 1;
+    margin-top: 8vh;
+    margin-left: 10vh;
+}
+.container2 {
+	display: flex;
+	flex: 1;
+    margin-top: 8vh;
+    flex-direction: column;
+}
+
+.a {
+    order: 1;
+  }
+  
+.b {
+    display: flex;
+    order: 2;
+  }
+.b_1 {
+    flex: 1;
+  }
+  
+.b_2 {
+    flex: 1;
+  }
